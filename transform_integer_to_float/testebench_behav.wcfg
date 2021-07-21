@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testebench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testebench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="493.501 ns"></ZoomEndTime>
+      <Cursor1Time time="15.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/testebench/clk_s" type="logic">
+      <obj_property name="ElementShortName">clk_s</obj_property>
+      <obj_property name="ObjectShortName">clk_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/reset_s" type="logic">
+      <obj_property name="ElementShortName">reset_s</obj_property>
+      <obj_property name="ObjectShortName">reset_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/entrada_a_s" type="array">
+      <obj_property name="ElementShortName">entrada_a_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">entrada_a_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/ula_out_s" type="array">
+      <obj_property name="ElementShortName">ula_out_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_out_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider6">
+      <obj_property name="label">Data_path</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/entrada_a" type="array">
+      <obj_property name="ElementShortName">entrada_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">entrada_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/ula_out" type="array">
+      <obj_property name="ElementShortName">ula_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/notacao_exc" type="array">
+      <obj_property name="ElementShortName">notacao_exc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">notacao_exc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/not_exc_fim" type="logic">
+      <obj_property name="ElementShortName">not_exc_fim</obj_property>
+      <obj_property name="ObjectShortName">not_exc_fim</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/expoente" type="array">
+      <obj_property name="ElementShortName">expoente[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expoente[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/expo_achou" type="logic">
+      <obj_property name="ElementShortName">expo_achou</obj_property>
+      <obj_property name="ObjectShortName">expo_achou</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/mantissa" type="array">
+      <obj_property name="ElementShortName">mantissa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mantissa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/sinal" type="logic">
+      <obj_property name="ElementShortName">sinal</obj_property>
+      <obj_property name="ObjectShortName">sinal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/valor_float" type="array">
+      <obj_property name="ElementShortName">valor_float[31:0]</obj_property>
+      <obj_property name="ObjectShortName">valor_float[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/data_path_i/ZERO32" type="array">
+      <obj_property name="ElementShortName">ZERO32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ZERO32[31:0]</obj_property>
+   </wvobject>
+</wave_config>
